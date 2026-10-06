@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="BodyFazerReserva">
+
+    <a href="index.html">Voltar para o inicio</a>
+    <header class="FazerReservaHeader">
+        <h1>Fazer reserva</h1>
+    </header>
+
+    <form>
+        <div>
+            <label for="Numero">Numero do quarto:</label>
+            <input type="number" name="Numero" id="Numero" min="1" required>
+        </div>
+        <div>
+            <label for="Hospede">Hospede:</label>
+            <input type="text" name="Hospede" id="Hospede" required>
+        </div>
+        <div>
+            <label for="Quantidade_diarias">Quantidade de diarias:</label>
+            <input type="number" name="Quantidade_diarias" id="Quantidade_diarias" min="1" required>
+        </div>
+
+        <button type="submit" class="ButtonFazerReserva" id="BotaoFazerReserva">Reservar</button>
+    </form>
+
+    <p id="Mensagem"></p>
+
+    <script src="FazerReserva.js"></script>
+</body>
+</html>

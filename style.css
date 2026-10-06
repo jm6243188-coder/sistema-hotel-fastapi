@@ -1,0 +1,128 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(0, 0, 119);
+    color: aliceblue;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+main {
+    background-color: lightslategray;
+    color: black;
+}
+
+footer {
+    background-color: lightslategray;
+    padding: 10px 10px;
+}
+
+.FazerReservaButton {
+    background-color: green;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.FazerReservaButton:hover {
+    font-weight: bold;
+}
+
+.FazerReservaHeader {
+    background-color: bisque;
+    color: black;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: lightslategray;
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.BodyFazerReserva {
+    background-image: url(FOTO1.png);
+    background-size: cover;
+}
+
+form input {
+    border-radius: 7px;
+}
+
+.ButtonFazerReserva {
+    background-color: green;
+    color: black;
+    border-radius: 7px;
+    padding: 5px 5px;
+}
+
+.ButtonFazerReserva:hover {
+    font-weight: bold;
+}
+
+body a {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+body a:hover {
+    font-weight: bold;
+}
+
+.CriarQuartoButton {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+}
+
+.CancelarReservaButton {
+    padding: 5px;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.DeletarQuartoButton {
+    padding: 7px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.GerenciarQuartosButton {
+    padding: 5px;
+    background-color: aqua;
+    color: black;
+}
+
+.FOTOindex {
+    display: flex;
+    gap: 5px;
+}
+
+.FOTOindex img {
+    max-width: 49%;
+}
+
+.BodyCriarQuarto {
+    background-image: url(FOTO2.png);
+    background-size: cover;
+}
+
+.BodyCancelarReserva {
+    background-image: url(FOTO3.png);
+    background-size: cover;
+}
+
+.BodyDeletarQuarto {
+    background-image: url(FOTO4.png);
+    background-size: cover;
+}

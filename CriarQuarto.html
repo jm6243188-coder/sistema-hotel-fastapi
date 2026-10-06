@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="BodyCriarQuarto">
+    <a href="index.html">Voltar para o inicio</a>
+    <header>
+        <h1>Criar quarto</h1>
+    </header>
+
+    <form>
+        <div>
+            <label for="numero">Numero do quarto:</label>
+            <input type="number" name="numero" id="numero" min="1" required>
+        </div>
+        <div>
+            <label for="valor_diaria">valor da diaria:</label>
+            <input type="number" name="valor_diaria" id="valor_diaria" min="1" required>
+        </div>
+
+        <button type="submit" id="ButtonCriarQuarto">Criar quarto</button>
+    </form>
+
+    <p id="mensagemCriarQuarto"></p>
+    <p id="numeroCriarQuarto"></p>
+
+    <script src="CriarQuarto.js"></script>
+</body>
+</html>
