@@ -48,7 +48,7 @@ git clone https://github.com/jm6243188-coder/sistema-hotel-fastapi.git
 
 cd sistema-hotel-fastapi
 
-pip install fastapi uvicorn
+pip install -r requirements.txt
 
 python -m uvicorn api:app --reload
 
